@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-
 namespace Invector.vCharacterController
 {
     public class vThirdPersonMotor : MonoBehaviour
@@ -22,6 +21,8 @@ namespace Invector.vCharacterController
             OnlyStrafe,
             OnlyFree,
         }
+
+        public GameObject MainCamera;
         public LocomotionType locomotionType = LocomotionType.FreeWithStrafe;
 
         public vMovementSpeed freeSpeed, strafeSpeed;
@@ -154,6 +155,44 @@ namespace Invector.vCharacterController
         }
 
         #region Locomotion
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("HigherJump"))
+            {
+                jumpHeight = 6f;               
+                
+            }
+            if(other.CompareTag("Cubes"))
+            {
+                MainCamera.GetComponent<Cubes>().enabled = true;
+            }
+        }
+
+        public GameObject cube;
+
+        private void OnTriggerExit(Collider other) {
+            if (other.CompareTag("HigherJump"))
+            {
+                jumpHeight = 4f;               
+                
+            }
+            if(other.CompareTag("Cubes"))
+            {
+                // if(cube.transform.position.y < 70)
+                // {
+                //     Destroy(Cubes.clone);
+                // }
+                MainCamera.GetComponent<Cubes>().enabled = false;          
+
+            }
+        }
+
+        void OnTriggerStay(Collider other){
+            if (other.gameObject.tag == "IceFloor") {
+                GetComponent<Collider>().material.dynamicFriction = 0;
+            }
+        }
 
         public virtual void SetControllerMoveSpeed(vMovementSpeed speed)
         {

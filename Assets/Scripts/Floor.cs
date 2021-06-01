@@ -17,7 +17,9 @@ public class Floor: MonoBehaviour
             player.transform.position = spawn.position;
             player.transform.eulerAngles = new Vector3(0f, -90f, 0f);
             other.attachedRigidbody.position = spawn.position;
-            
+
+        
         }
     }
+
 }

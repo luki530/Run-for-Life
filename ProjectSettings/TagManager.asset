@@ -7,6 +7,10 @@ TagManager:
   - enemy
   - Bouncy
   - Bounce
+  - IceFloor
+  - Enemy
+  - HigherJump
+  - Cubes
   layers:
   - Default
   - TransparentFX
