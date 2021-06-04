@@ -163,28 +163,13 @@ namespace Invector.vCharacterController
                 jumpHeight = 6f;               
                 
             }
-            if(other.CompareTag("Cubes"))
-            {
-                MainCamera.GetComponent<Cubes>().enabled = true;
-            }
         }
-
-        public GameObject cube;
 
         private void OnTriggerExit(Collider other) {
             if (other.CompareTag("HigherJump"))
             {
                 jumpHeight = 4f;               
                 
-            }
-            if(other.CompareTag("Cubes"))
-            {
-                // if(cube.transform.position.y < 70)
-                // {
-                //     Destroy(Cubes.clone);
-                // }
-                MainCamera.GetComponent<Cubes>().enabled = false;          
-
             }
         }
 

@@ -11,6 +11,8 @@ TagManager:
   - Enemy
   - HigherJump
   - Cubes
+  - Fire
+  - Checkpoints
   layers:
   - Default
   - TransparentFX
