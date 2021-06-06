@@ -4,32 +4,18 @@ using UnityEngine;
 
 public class Cubes : MonoBehaviour
 {
-   public float delay3 = 0.6f;
+    public float delay3 = 0.6f;
     public float delay2 = 0.45f;
     public float delay1 = 0.3f;
 
     public GameObject cube;
-    private IEnumerator coroutine1, coroutine2, coroutine3;
-    private static bool isEnable = false;
 
     public GameObject clone1, clone2, clone3;
 
-    private GameObject destroy;
 
     // Start is called before the first frame update
     void Start()
     {
-        // coroutine1 = Spawn1();
-        // coroutine2 = Spawn2();
-        // coroutine3 = Spawn3();
-
-        if (isEnable){
-            
-        }
-        else
-        {
-            
-        }
 
     }
 
@@ -86,10 +72,6 @@ public class Cubes : MonoBehaviour
             Destroy(clone1, 30.0f);
             yield return new WaitForSeconds( 0.5f );
         }
-
-    }
-    void Update()
-    {
 
     }
 }
