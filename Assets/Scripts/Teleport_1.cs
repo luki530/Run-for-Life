@@ -15,8 +15,8 @@ public class Teleport_1 : MonoBehaviour
 
                 yield return new WaitForSeconds(3);
                 other.attachedRigidbody.velocity = Vector3.zero;
-                other.attachedRigidbody.position = new Vector3(-31,21,61);
-                player.transform.position = new Vector3(-31,21,61);
+                other.attachedRigidbody.position = new Vector3(521.5f,20,-119);
+                player.transform.position = new Vector3(521.5f,20,-119);
                 player.transform.eulerAngles = new Vector3(0f, -90f, 0f);
         
         }

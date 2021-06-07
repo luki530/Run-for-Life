@@ -15,7 +15,9 @@ public class Checkpoint : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            
             levelManager.currentCheckpoint = gameObject;
+            levelManager.currentCheckpoint.GetComponent<MeshRenderer>().material.color = Color.green;
         }
     }
 }
