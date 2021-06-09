@@ -13,6 +13,7 @@ TagManager:
   - Cubes
   - Fire
   - Checkpoints
+  - Space
   layers:
   - Default
   - TransparentFX

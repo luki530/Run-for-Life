@@ -48,9 +48,9 @@ public class Cubes : MonoBehaviour
     {   
         for(;;)
         {
-            clone1 = Instantiate(cube, new Vector3(Random.Range(-326,-272), 50, Random.Range(178,224)), new Quaternion(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360)));
-            Destroy(clone1, 30.0f);
-            yield return new WaitForSeconds( 0.2f );
+            clone1 = Instantiate(cube, new Vector3(Random.Range(-1419.8f, -1365.8f), 257, Random.Range(162,208)), new Quaternion(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360)));
+            Destroy(clone1, 15.0f);
+            yield return new WaitForSeconds( 0.1f );
         }
     }
 
@@ -58,9 +58,9 @@ public class Cubes : MonoBehaviour
     {   
         for(;;)
         {
-            clone2 = Instantiate(cube, new Vector3(Random.Range(-326,-272), 50, Random.Range(112,178)), new Quaternion(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360)));
-            Destroy(clone1, 30.0f);
-            yield return new WaitForSeconds( 0.35f );
+            clone2 = Instantiate(cube, new Vector3(Random.Range(-1419.8f, -1365.8f), 257, Random.Range(96,162)), new Quaternion(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360)));
+            Destroy(clone2, 25.0f);
+            yield return new WaitForSeconds( 0.15f );
         }
     }
 
@@ -68,9 +68,9 @@ public class Cubes : MonoBehaviour
     {   
         for(;;)
         {
-            clone3 = Instantiate(cube, new Vector3(Random.Range(-326,-272), 50, Random.Range(56,112)), new Quaternion(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360)));
-            Destroy(clone1, 30.0f);
-            yield return new WaitForSeconds( 0.5f );
+            clone3 = Instantiate(cube, new Vector3(Random.Range(-1419.8f, -1365.8f), 257, Random.Range(40,96)), new Quaternion(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360)));
+            Destroy(clone3, 35.0f);
+            yield return new WaitForSeconds( 0.4f );
         }
 
     }
