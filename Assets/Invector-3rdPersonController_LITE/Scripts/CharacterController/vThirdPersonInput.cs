@@ -21,12 +21,17 @@ namespace Invector.vCharacterController
         [HideInInspector] public vThirdPersonCamera tpCamera;
         [HideInInspector] public Camera cameraMain;
 
+        [Header("Audio")]
+        public AudioClip jumpSound;
+        AudioSource audioSource;
+
         #endregion
 
         protected virtual void Start()
         {
             InitilizeController();
             InitializeTpCamera();
+            audioSource = GetComponent<AudioSource>();
         }
 
         protected virtual void FixedUpdate()
@@ -141,8 +146,10 @@ namespace Invector.vCharacterController
         /// </summary>
         protected virtual void JumpInput()
         {
-            if (Input.GetKeyDown(jumpInput) && JumpConditions())
+            if (Input.GetKeyDown(jumpInput) && JumpConditions()){
+                audioSource.PlayOneShot(jumpSound, 0.3F);
                 cc.Jump();
+            }
         }
 
         #endregion       
