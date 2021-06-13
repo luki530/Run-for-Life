@@ -185,6 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563343737876
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563356512051
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563373469390
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,6 +644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563378070745
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,101 +1024,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.7
   m_Center: {x: 0.0000076293945, y: 0.0000038146973, z: 0}
---- !u!1 &1118223563398652421
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1118223563398652422}
-  - component: {fileID: 1118223563398652441}
-  - component: {fileID: 1118223563398652440}
-  - component: {fileID: 1118223563398652423}
-  m_Layer: 0
-  m_Name: Cube (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1118223563398652422
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118223563398652421}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 423.50314, y: 179.05647, z: 217.24002}
-  m_LocalScale: {x: 0.5, y: 39, z: 5}
-  m_Children: []
-  m_Father: {fileID: 1118223564356367976}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1118223563398652441
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118223563398652421}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1118223563398652440
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118223563398652421}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 257
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: feef69990213c5944bb34cdadf237c13, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1118223563398652423
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118223563398652421}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1118223563410055025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,6 +1423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563438820509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563450292734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,6 +1730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563452554933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,6 +1820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563463738018
 GameObject:
   m_ObjectHideFlags: 0
@@ -3037,6 +2950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563530719701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,6 +3071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563541874155
 GameObject:
   m_ObjectHideFlags: 0
@@ -3469,6 +3384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563553475185
 GameObject:
   m_ObjectHideFlags: 0
@@ -3805,6 +3721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563570144016
 GameObject:
   m_ObjectHideFlags: 0
@@ -3925,6 +3842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563585212831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3984,6 +3902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563601315446
 GameObject:
   m_ObjectHideFlags: 0
@@ -4043,6 +3962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563612401267
 GameObject:
   m_ObjectHideFlags: 0
@@ -4687,6 +4607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563642524405
 GameObject:
   m_ObjectHideFlags: 0
@@ -4746,6 +4667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563642791584
 GameObject:
   m_ObjectHideFlags: 0
@@ -4901,6 +4823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563649324588
 GameObject:
   m_ObjectHideFlags: 0
@@ -5056,6 +4979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563659060474
 GameObject:
   m_ObjectHideFlags: 0
@@ -5494,6 +5418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563696631421
 GameObject:
   m_ObjectHideFlags: 0
@@ -5710,6 +5635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563731143213
 GameObject:
   m_ObjectHideFlags: 0
@@ -5860,6 +5786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563749159716
 GameObject:
   m_ObjectHideFlags: 0
@@ -6166,6 +6093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563765334049
 GameObject:
   m_ObjectHideFlags: 0
@@ -6225,6 +6153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563767290228
 GameObject:
   m_ObjectHideFlags: 0
@@ -6440,6 +6369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563798747419
 GameObject:
   m_ObjectHideFlags: 0
@@ -6471,7 +6401,7 @@ Transform:
   m_LocalScale: {x: 50, y: 39, z: 0.05}
   m_Children: []
   m_Father: {fileID: 1118223564356367976}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1118223563798747423
 MeshFilter:
@@ -6624,6 +6554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563805753790
 GameObject:
   m_ObjectHideFlags: 0
@@ -6774,6 +6705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563815604462
 GameObject:
   m_ObjectHideFlags: 0
@@ -6989,6 +6921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563819324849
 GameObject:
   m_ObjectHideFlags: 0
@@ -7205,6 +7138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563826123851
 GameObject:
   m_ObjectHideFlags: 0
@@ -7264,6 +7198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563835859068
 GameObject:
   m_ObjectHideFlags: 0
@@ -7383,6 +7318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563854596682
 GameObject:
   m_ObjectHideFlags: 0
@@ -7442,6 +7378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563859804837
 GameObject:
   m_ObjectHideFlags: 0
@@ -7531,6 +7468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563867819129
 GameObject:
   m_ObjectHideFlags: 0
@@ -7590,6 +7528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563876829538
 GameObject:
   m_ObjectHideFlags: 0
@@ -8053,6 +7992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563921734179
 GameObject:
   m_ObjectHideFlags: 0
@@ -8112,6 +8052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563922067318
 GameObject:
   m_ObjectHideFlags: 0
@@ -8423,6 +8364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563970330102
 GameObject:
   m_ObjectHideFlags: 0
@@ -8543,6 +8485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563974893779
 GameObject:
   m_ObjectHideFlags: 0
@@ -8728,6 +8671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563983447032
 GameObject:
   m_ObjectHideFlags: 0
@@ -8969,6 +8913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223563999136265
 GameObject:
   m_ObjectHideFlags: 0
@@ -9058,6 +9003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564000722604
 GameObject:
   m_ObjectHideFlags: 0
@@ -9298,101 +9244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
---- !u!1 &1118223564030486913
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1118223564030486917}
-  - component: {fileID: 1118223564030486916}
-  - component: {fileID: 1118223564030486915}
-  - component: {fileID: 1118223564030486914}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1118223564030486917
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118223564030486913}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 398.25314, y: 159.80647, z: 217.24002}
-  m_LocalScale: {x: 50, y: 0.49999997, z: 5}
-  m_Children: []
-  m_Father: {fileID: 1118223564356367976}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1118223564030486916
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118223564030486913}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1118223564030486915
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118223564030486913}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 257
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 47c61c622bf053944a8342d4d1c559b6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1118223564030486914
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118223564030486913}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564031187116
 GameObject:
   m_ObjectHideFlags: 0
@@ -10106,6 +9958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564106587380
 GameObject:
   m_ObjectHideFlags: 0
@@ -10636,6 +10489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564140942032
 GameObject:
   m_ObjectHideFlags: 0
@@ -10894,6 +10748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564160452352
 GameObject:
   m_ObjectHideFlags: 0
@@ -11131,6 +10986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564175515937
 GameObject:
   m_ObjectHideFlags: 0
@@ -11190,6 +11046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564178843046
 GameObject:
   m_ObjectHideFlags: 0
@@ -11406,6 +11263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564199922069
 GameObject:
   m_ObjectHideFlags: 0
@@ -11465,6 +11323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564210816523
 GameObject:
   m_ObjectHideFlags: 0
@@ -11554,6 +11413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564224651400
 GameObject:
   m_ObjectHideFlags: 0
@@ -12204,6 +12064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564269171037
 GameObject:
   m_ObjectHideFlags: 0
@@ -12263,6 +12124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564269944706
 GameObject:
   m_ObjectHideFlags: 0
@@ -12322,6 +12184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564279052378
 GameObject:
   m_ObjectHideFlags: 0
@@ -12411,6 +12274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564286403333
 GameObject:
   m_ObjectHideFlags: 0
@@ -13065,8 +12929,6 @@ Transform:
   m_LocalPosition: {x: -59.61972, y: -26.33, z: -326.1058}
   m_LocalScale: {x: 0.15, y: 0.15, z: 1.5}
   m_Children:
-  - {fileID: 1118223564030486917}
-  - {fileID: 1118223563398652422}
   - {fileID: 1118223564816443951}
   - {fileID: 1118223563798747420}
   m_Father: {fileID: 3597724660523490076}
@@ -13322,6 +13184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564377270691
 GameObject:
   m_ObjectHideFlags: 0
@@ -13563,6 +13426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564385964325
 GameObject:
   m_ObjectHideFlags: 0
@@ -13694,6 +13558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564402479867
 GameObject:
   m_ObjectHideFlags: 0
@@ -13814,6 +13679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564411014134
 GameObject:
   m_ObjectHideFlags: 0
@@ -13873,6 +13739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564414544131
 GameObject:
   m_ObjectHideFlags: 0
@@ -13932,6 +13799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564425345666
 GameObject:
   m_ObjectHideFlags: 0
@@ -13991,6 +13859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564425607174
 GameObject:
   m_ObjectHideFlags: 0
@@ -14110,6 +13979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564436897761
 GameObject:
   m_ObjectHideFlags: 0
@@ -14336,6 +14206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564446314766
 GameObject:
   m_ObjectHideFlags: 0
@@ -14456,6 +14327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564452880732
 GameObject:
   m_ObjectHideFlags: 0
@@ -14576,6 +14448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564456974111
 GameObject:
   m_ObjectHideFlags: 0
@@ -14792,6 +14665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564462644081
 GameObject:
   m_ObjectHideFlags: 0
@@ -15031,6 +14905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564507198101
 GameObject:
   m_ObjectHideFlags: 0
@@ -15247,6 +15122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564515839429
 GameObject:
   m_ObjectHideFlags: 0
@@ -15584,6 +15460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564532820830
 GameObject:
   m_ObjectHideFlags: 0
@@ -15643,6 +15520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564535158851
 GameObject:
   m_ObjectHideFlags: 0
@@ -15924,6 +15802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564553217538
 GameObject:
   m_ObjectHideFlags: 0
@@ -15983,6 +15862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564558221855
 GameObject:
   m_ObjectHideFlags: 0
@@ -16260,6 +16140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564580213279
 GameObject:
   m_ObjectHideFlags: 0
@@ -16445,6 +16326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564612029994
 GameObject:
   m_ObjectHideFlags: 0
@@ -16606,6 +16488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564615784909
 GameObject:
   m_ObjectHideFlags: 0
@@ -16665,6 +16548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564619957836
 GameObject:
   m_ObjectHideFlags: 0
@@ -17521,6 +17405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564655317578
 GameObject:
   m_ObjectHideFlags: 0
@@ -18298,6 +18183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564720726566
 GameObject:
   m_ObjectHideFlags: 0
@@ -18965,6 +18851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564747149989
 GameObject:
   m_ObjectHideFlags: 0
@@ -19337,6 +19224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564757016733
 GameObject:
   m_ObjectHideFlags: 0
@@ -19457,6 +19345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564761038895
 GameObject:
   m_ObjectHideFlags: 0
@@ -19885,6 +19774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564785532313
 GameObject:
   m_ObjectHideFlags: 0
@@ -19944,6 +19834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564787139472
 GameObject:
   m_ObjectHideFlags: 0
@@ -20336,6 +20227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564812676999
 GameObject:
   m_ObjectHideFlags: 0
@@ -20491,6 +20383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564813341927
 GameObject:
   m_ObjectHideFlags: 0
@@ -20648,7 +20541,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 39, z: 5}
   m_Children: []
   m_Father: {fileID: 1118223564356367976}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1118223564816443938
 MeshFilter:
@@ -21059,6 +20952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564843737985
 GameObject:
   m_ObjectHideFlags: 0
@@ -21649,6 +21543,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564878802762
 GameObject:
   m_ObjectHideFlags: 0
@@ -21769,6 +21664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564895594162
 GameObject:
   m_ObjectHideFlags: 0
@@ -21828,6 +21724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564902886449
 GameObject:
   m_ObjectHideFlags: 0
@@ -21887,6 +21784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564904587962
 GameObject:
   m_ObjectHideFlags: 0
@@ -21946,6 +21844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564906364875
 GameObject:
   m_ObjectHideFlags: 0
@@ -22131,6 +22030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564934948555
 GameObject:
   m_ObjectHideFlags: 0
@@ -22472,6 +22372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564949275729
 GameObject:
   m_ObjectHideFlags: 0
@@ -22688,6 +22589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564962088734
 GameObject:
   m_ObjectHideFlags: 0
@@ -23399,6 +23301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223564997507103
 GameObject:
   m_ObjectHideFlags: 0
@@ -24342,6 +24245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565062618227
 GameObject:
   m_ObjectHideFlags: 0
@@ -24907,6 +24811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565079952806
 GameObject:
   m_ObjectHideFlags: 0
@@ -25062,6 +24967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565082230209
 GameObject:
   m_ObjectHideFlags: 0
@@ -25121,6 +25027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565084514404
 GameObject:
   m_ObjectHideFlags: 0
@@ -25302,6 +25209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565099935853
 GameObject:
   m_ObjectHideFlags: 0
@@ -25855,6 +25763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565171390105
 GameObject:
   m_ObjectHideFlags: 0
@@ -26192,6 +26101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565184638597
 GameObject:
   m_ObjectHideFlags: 0
@@ -26468,6 +26378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565203126317
 GameObject:
   m_ObjectHideFlags: 0
@@ -27056,6 +26967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565253655019
 GameObject:
   m_ObjectHideFlags: 0
@@ -27344,6 +27256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565278053169
 GameObject:
   m_ObjectHideFlags: 0
@@ -27890,6 +27803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565301909486
 GameObject:
   m_ObjectHideFlags: 0
@@ -28202,6 +28116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565317895401
 GameObject:
   m_ObjectHideFlags: 0
@@ -28444,6 +28359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565335050952
 GameObject:
   m_ObjectHideFlags: 0
@@ -28598,6 +28514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565337762101
 GameObject:
   m_ObjectHideFlags: 0
@@ -28753,6 +28670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565341890164
 GameObject:
   m_ObjectHideFlags: 0
@@ -28872,6 +28790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565350009635
 GameObject:
   m_ObjectHideFlags: 0
@@ -29057,6 +28976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565367155186
 GameObject:
   m_ObjectHideFlags: 0
@@ -29273,6 +29193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565379188582
 GameObject:
   m_ObjectHideFlags: 0
@@ -29393,6 +29314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &1118223565382597250
 GameObject:
   m_ObjectHideFlags: 0
@@ -31110,6 +31032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  death: {fileID: 0}
 --- !u!1 &5589778079593457905
 GameObject:
   m_ObjectHideFlags: 0
