@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Run-for-life.unity
     guid: 403c61eb9f43f024d8424dd64433f023
+  - enabled: 1
+    path: Assets/Scenes/Options-Menu.unity
+    guid: e4bfee25799dd9746921fb0e944b2ded
   m_configObjects: {}
