@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEditor;
-using UnityEngine.UI;
-using UnityEngine.EventSystems;
+
 
 namespace Invector.vCharacterController
 {

@@ -3,17 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - enemy
-  - Bouncy
-  - Bounce
-  - IceFloor
-  - Enemy
-  - HigherJump
-  - Cubes
-  - Fire
-  - Checkpoints
-  - Space
+  tags: []
   layers:
   - Default
   - TransparentFX
